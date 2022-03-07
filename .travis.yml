@@ -1,5 +1,0 @@
-language: python
-python:
-        - "3.10"
-script:
-        - Exe-077.py
