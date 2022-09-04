@@ -1,16 +1,16 @@
 '''Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No final, mostre qual foi o maior e o menor valor digitado e as suas respectivas posições na lista.'''
 
 lista=list()
-cont=0
+#cont=0
 for c in range(0,5):
     num=int(input('Digite um valor: '))
     lista.append(num)
 maior=lista[0]
 menor=lista[0]
-while cont < 5:
+'''while cont < 5:
     if lista[cont] >= maior:
         maior = lista[cont]
-        cont +=1
+        cont +=1'''
 print(lista)
 print(maior)
 print(menor)
