@@ -10,7 +10,7 @@ from time import time
 timesingleses='Manchester City', 'Liverpool', 'Chelsea', 'Manchester United', 'West Ham', 'Arsenal', 'Wolverhampton', 'Tottenham', 'Brighton', 'Southampton', 'Crystal Palace', 'Leicester', 'Aston Villa', 'Brentford', 'Leeds United', 'Everton', 'Newcastle', 'Burnley', 'Watford', 'Norwich'
 print(timesingleses[:5])
 print('-='*30)
-print(timesingleses[16:])
+print(timesingleses[-4:])
 print('-='*30)
 print(sorted(timesingleses))
 print('-='*30)

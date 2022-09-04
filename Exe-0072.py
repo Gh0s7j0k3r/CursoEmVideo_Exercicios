@@ -12,6 +12,5 @@ while True:
         if opcao == 'N':
             break
     else:
-        print('Tente novamente!', end=' ')
-        
-    
+        print('Tente novamente!')
+            

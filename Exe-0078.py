@@ -13,3 +13,6 @@ while cont < 5:
         cont +=1
 print(lista)
 print(maior)
+print(menor)
+print(f'O menor valor apareceu na {lista.index(menor)+1}ª posição.')
+print(f'O maior valor apareceu na {lista.index(maior)+1}ª posição.')
